@@ -13,8 +13,8 @@ type TodoListPropsType = {
 
 export const TodoList: React.FC<TodoListPropsType> = (props) => {
     return (
-        <div>
-            <h3>{props.title}</h3>
+        <div className={'to_Do_List'}>
+            <h3 className={'to_Do_List__header'}>{props.title}</h3>
             <div>
                 <input/>
                 <button>+</button>

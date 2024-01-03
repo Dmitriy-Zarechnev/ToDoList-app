@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.to_Do_List{
+  padding: 20px;
+  border: 2px solid #549a1a;
+  border-radius: 5px;
+  background-color: #dcac83;
+}
+
+.to_Do_List__header{
+  font-size: 25px;
+  line-height: 1.2;
+  text-transform: capitalize;
+  text-align: center;
+  margin: 0;
+  padding: 10px 0;
+}
