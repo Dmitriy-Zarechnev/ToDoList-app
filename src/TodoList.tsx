@@ -11,7 +11,7 @@ type TodoListPropsType = {
     tasks: Array<TasksType>
 }
 
-export const TodoList: React.FC<TodoListPropsType> = (props: TodoListPropsType) => {
+export const TodoList: React.FC<TodoListPropsType> = (props) => {
     return (
         <div>
             <h3>{props.title}</h3>
